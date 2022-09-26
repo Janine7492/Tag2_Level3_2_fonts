@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Cinzel-Medium;
+    src: url("../fonts/Cinzel-Medium.ttf");
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: Pacifico-Regular;
+    src: url("../fonts/Pacifico-Regular.ttf");
+}
+
+@font-face {
+    font-family: ShadowsIntoLightTwo-Regular;
+    src: url("../fonts/ShadowsIntoLightTwo-Regular.ttf");
+}
+
+
+h1 {
+    color: ivory;
+    background-color: #545454;
+    font-family: ShadowsIntoLightTwo-Regular;
+    text-shadow: 2px 2px red;
+    text-transform: capitalize;
+    line-height: 50px;
+
+}
+
+h2 {
+    background: lightgreen;
+    font-family: Pacifico-Regular;
+    word-spacing: 10px;
+    font-size: 32px;
+}
+
+p strong {
+    color: gold;
+}
+
+p em {
+    color: red;
+}
+
+p:nth-of-type(1) {
+    font-family: Lato-Regular;
+    word-spacing: 8px;
+}
+
+h3 {
+    font-family: ShadowsIntoLightTwo-Regular;
+    word-spacing: 3px;
+    font-size: 29px;
+}
+
+main p {
+    font-family: Cinzel-Medium;
+}
+
+ol li {
+    color: tomato;
+    text-transform: uppercase;
+    font-family: Cinzel-Medium;
+    line-height: 35px;
+    font-size: 15px;
+    word-spacing: 4px;
+}
+
+h4 {
+    background-color: yellow;
+    font-family: Pacifico-Regular;
+    text-shadow: -10px 5px gray;
+    text-align: right;
+    font-size: 60px;
+}
+
+h5 {
+    font-family: Cinzel-Medium;
+    text-transform: uppercase;
+    font-size: 19px;
+    letter-spacing: 3px;
+    word-spacing: 8px;
+    line-height: 30px;
+}
+
+ul li {
+
+    font-size: 15px;
+    font-family: Lato-Regular;
+    line-height: 30px;
+}
+
+ul {
+    background-color: lightgray;
+    word-spacing: 3px;
+}
